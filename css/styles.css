@@ -61,8 +61,6 @@ span {
 nav {
     display: flex;
     align-items: center;
-
-
 }
 
 .nav.link-nav,
@@ -290,6 +288,8 @@ img{
     font-weight: 500;
     line-height: 1.63;
     border-radius: 4px;
+    padding: 6px 22px;
+    border-color: var(--backgraund-section-color);
 }
 
 .button-portfolio:hover,
@@ -370,4 +370,9 @@ footer {
 .container.nav {
     display: flex;
     align-items: center;
+    max-height: 80px;
+}
+
+.section.about{
+    padding-top: 0;
 }
