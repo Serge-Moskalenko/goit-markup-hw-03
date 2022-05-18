@@ -75,14 +75,13 @@ nav {
 
 .site-nav {
     display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav.list .link-nav {
     display: block;
     margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
     color: var(--praimeri-text-color);
 }
 
@@ -370,7 +369,6 @@ footer {
 .container.nav {
     display: flex;
     align-items: center;
-    max-height: 80px;
 }
 
 .section.about{
